@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ══════════════════════════════════════════════════════════════
+  Android Manifest permissions required by WX Station app
+  ══════════════════════════════════════════════════════════════
+  
+  Add the lines marked with ← NEW to your existing
+  android/app/src/main/AndroidManifest.xml
+  
+  Place all <uses-permission> tags BEFORE the <application> tag.
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Internet (Firebase + Open-Meteo) -->
+    <uses-permission android:name="android.permission.INTERNET"/>                          <!-- ← NEW -->
+
+    <!-- GPS Location (for city name + internet weather) -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>              <!-- ← NEW -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>            <!-- ← NEW -->
+
+    <!-- Keep screen on while app is open (optional) -->
+    <!-- <uses-permission android:name="android.permission.WAKE_LOCK"/> -->
+
+    <application
+        android:label="WX Station"
+        android:name="${applicationName}"
+        android:icon="@mipmap/ic_launcher">
+
+        <!-- Your activities / services here (unchanged) -->
+
+    </application>
+</manifest>

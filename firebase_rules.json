@@ -1,0 +1,13 @@
+{
+  "rules": {
+    "weather_station": {
+      ".read": true,
+      ".write": true
+    },
+    "weather_history": {
+      ".read": true,
+      ".write": true,
+      ".indexOn": ["timestamp"]
+    }
+  }
+}

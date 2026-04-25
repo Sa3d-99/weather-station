@@ -1,0 +1,51 @@
+name: wx_station
+description: ESP32 Weather Station – Professional Firebase Dashboard
+publish_to: 'none'
+version: 2.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.10.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^2.24.2
+  firebase_database: ^10.4.4
+
+  # UI / Charts
+  fl_chart: ^0.66.2
+  google_fonts: ^6.1.0
+  flutter_animate: ^4.5.0
+
+  # Location & time
+  geolocator: ^11.0.0
+  geocoding: ^3.0.0
+  intl: ^0.19.0
+
+  # HTTP for Open-Meteo (free, no key needed)
+  http: ^1.2.1
+
+  # State
+  provider: ^6.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/icon.png
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/icon.png" # مسار صورتك الجديدة
+  adaptive_icon_background: "#FFFFFF" # لون خلفية للأندرويد
+  adaptive_icon_foreground: "assets/images/icon.png"

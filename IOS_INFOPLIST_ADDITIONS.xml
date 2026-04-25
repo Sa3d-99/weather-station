@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ══════════════════════════════════════════════════════════════
+  iOS Info.plist additions required by WX Station app
+  ══════════════════════════════════════════════════════════════
+
+  Add these key/string pairs inside the <dict> block of
+  ios/Runner/Info.plist
+-->
+<plist version="1.0">
+<dict>
+
+    <!-- Location permission descriptions (REQUIRED by Apple) -->
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>WX Station uses your location to fetch local internet weather data for comparison with your ESP32 sensor readings.</string>
+
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>WX Station uses your location to fetch local internet weather data for comparison with your ESP32 sensor readings.</string>
+
+</dict>
+</plist>
