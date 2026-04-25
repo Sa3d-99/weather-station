@@ -1,0 +1,33 @@
+{
+  "_comment": "THIS IS A TEMPLATE — replace all YOUR_* values with your real Firebase project values.",
+  "_how_to_get": "Download the real file from: Firebase Console → Project Settings → Your Apps → google-services.json",
+
+  "project_info": {
+    "project_number": "YOUR_PROJECT_NUMBER",
+    "firebase_url":   "https://YOUR_PROJECT_ID-default-rtdb.firebaseio.com",
+    "project_id":     "YOUR_PROJECT_ID",
+    "storage_bucket": "YOUR_PROJECT_ID.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "YOUR_ANDROID_APP_ID",
+        "android_client_info": {
+          "package_name": "com.example.wx_station"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "YOUR_ANDROID_API_KEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
