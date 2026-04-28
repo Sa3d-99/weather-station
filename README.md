@@ -205,14 +205,6 @@ The color palette is intentionally matched to the TFT display firmware for visua
 
 ---
 
-## 📸 Screenshots
-
-> _Add screenshots of your app here._
-> 
-> Tip: `flutter screenshot` saves a PNG from a running device.
-
----
-
 ## 🤝 Contributing
 
 1. Fork the repo
